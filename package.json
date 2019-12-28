@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "0594a88e-69ba-40f9-8af8-647ab7ab5543",
+    "appType": "clockface",
+    "appDisplayName": "Relative Time",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Relative Time"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}

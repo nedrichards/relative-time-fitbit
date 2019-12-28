@@ -1,0 +1,6 @@
+<svg viewport-fill="black">
+  <use id="timeLabel" href="#mixed-text-center-mid" height="100%" fill="fb-lavender">
+    <set href="#header/text" attributeName="text-buffer" to="Header Text"/>
+    <set href="#header/text" attributeName="text-length" to="128" />
+  </use>
+</svg>
