@@ -71,103 +71,219 @@ else if (mins >= 58 && mins < 60)
   }
 
 // hours
-if (hours == 0) 
+if (hours == 0 && mins < 3) 
   {
     hoursText = "midnight";
   } 
-else if (hours == 1) 
+else if (hours == 0 && mins >= 3 && mins < 57) 
+  {
+    hoursText = "twelve";
+  }
+else if (hours == 0 && mins >= 58) 
   {
     hoursText = "one";
   }
-else if (hours == 2) 
+else if (hours == 1 && mins < 57) 
+  {
+    hoursText = "one";
+  }
+else if (hours == 1 && mins >= 58) 
   {
     hoursText = "two";
   }
- else if (hours == 3)
+else if (hours == 2 && mins < 57) 
+  {
+    hoursText = "two";
+  }
+else if (hours == 2 && mins >= 58) 
   {
     hoursText = "three";
   }
- else if (hours == 4) 
+else if (hours == 3 && mins < 57)
+  {
+    hoursText = "three";
+  }
+else if (hours == 3 && mins >= 58)
   {
     hoursText = "four";
   }
-else if (hours == 5) 
+else if (hours == 4 && mins < 57) 
+  {
+    hoursText = "four";
+  }
+else if (hours == 4 && mins >= 58) 
   {
     hoursText = "five";
   }
-else if (hours == 6) 
+else if (hours == 5 && mins < 57) 
+  {
+    hoursText = "five";
+  }
+else if (hours == 5 && mins >= 58) 
   {
     hoursText = "six";
   }
-else if (hours == 7) 
+else if (hours == 6 && mins < 57) 
+  {
+    hoursText = "six";
+  }
+else if (hours == 6 && mins >= 58) 
   {
     hoursText = "seven";
   }
-else if (hours == 8) 
+else if (hours == 7 && mins < 57) 
+  {
+    hoursText = "seven";
+  }
+else if (hours == 7 && mins >= 58) 
   {
     hoursText = "eight";
   }
-else if (hours == 9) 
+else if (hours == 8 && mins < 57) 
+  {
+    hoursText = "eight";
+  }
+else if (hours == 8 && mins >= 58) 
   {
     hoursText = "nine";
   }
-else if (hours == 10) 
+else if (hours == 9 && mins < 57) 
+  {
+    hoursText = "nine";
+  }
+else if (hours == 9 && mins >= 58) 
   {
     hoursText = "ten";
   }
-else if (hours == 11) 
+else if (hours == 10 && mins < 57) 
+  {
+    hoursText = "ten";
+  }
+else if (hours == 10 && mins >= 58) 
   {
     hoursText = "eleven";
   }
-else if (hours == 12) 
+else if (hours == 10 && mins >= 58) 
+  {
+    hoursText = "eleven";
+  }
+else if (hours == 10 && mins >= 58) 
+  {
+    hoursText = "eleven";
+  }
+else if (hours == 11 && mins < 57) 
+  {
+    hoursText = "eleven";
+  }
+else if (hours == 11 && mins >= 58) 
   {
     hoursText = "midday";
   }
-else if (hours == 13) 
+else if (hours == 12 && mins < 3) 
+  {
+    hoursText = "midday";
+  }
+else if (hours == 12 && mins >= 3 && mins < 57) 
+  {
+    hoursText = "twelve";
+  }
+else if (hours == 12 && mins >= 58) 
   {
     hoursText = "one";
   }
-else if (hours == 14) 
+else if (hours == 13 && mins < 57) 
+  {
+    hoursText = "one";
+  }
+else if (hours == 13 && mins >= 58) 
   {
     hoursText = "two";
   }
-else if (hours == 15) 
+else if (hours == 14 && mins < 57) 
+  {
+    hoursText = "two";
+  }
+else if (hours == 14 && mins >= 58) 
   {
     hoursText = "three";
   }
-else if (hours == 16) 
+else if (hours == 15 && mins >= 58) 
+  {
+    hoursText = "three";
+  }
+else if (hours == 15 && mins < 57) 
+  {
+    hoursText = "three";
+  }
+else if (hours == 15 && mins >= 58) 
   {
     hoursText = "four";
   }
-else if (hours == 17) 
+else if (hours == 16 && mins < 57) 
+  {
+    hoursText = "four";
+  }
+else if (hours == 16 && mins >= 58) 
   {
     hoursText = "five";
   }
-else if (hours == 18) 
+else if (hours == 17 && mins < 57) 
+  {
+    hoursText = "five";
+  }
+else if (hours == 17 && mins >= 58) 
   {
     hoursText = "six";
   }
-else if (hours == 19) 
+else if (hours == 18 && mins < 57) 
+  {
+    hoursText = "six";
+  }
+else if (hours == 18 && mins >= 58) 
   {
     hoursText = "seven";
   }
-else if (hours == 20) 
+else if (hours == 19 && mins < 57) 
+  {
+    hoursText = "seven";
+  }
+else if (hours == 19 && mins >= 58) 
   {
     hoursText = "eight";
   }
-else if (hours == 21) 
+else if (hours == 20 && mins < 57) 
+  {
+    hoursText = "eight";
+  }
+else if (hours == 20 && mins >= 58) 
   {
     hoursText = "nine";
   }
-else if (hours == 22) 
+else if (hours == 21 && mins < 57) 
+  {
+    hoursText = "nine";
+  }
+else if (hours == 21 && mins >= 58) 
   {
     hoursText = "ten";
   }
-else if (hours == 23) 
+else if (hours == 22 && mins < 57) 
+  {
+    hoursText = "ten";
+  }
+else if (hours == 22 && mins >= 58) 
   {
     hoursText = "eleven";
   }
-
+else if (hours == 23 && mins < 57) 
+  {
+    hoursText = "eleven";
+  }
+else if (hours == 23 && mins >= 58) 
+  {
+    hoursText = "midnight";
+  }
+  
 timeLabel.text = minsText + hoursText;
   
 }
